@@ -1,5 +1,3 @@
-# Privacy Pass
-
 Privacy Pass is a browser extension that makes the internet more accessible.
 
 ## How?
