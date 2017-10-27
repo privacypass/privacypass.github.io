@@ -14,7 +14,7 @@ Privacy Pass will detect when an internet challenge is required in the future. I
 
 This protocol allows a client to bypass a number of internet challenges proportional to the number of tokens that are signed. The blinding feature used in the signing process preserves the anonymity of the user involved by randomising the tokens that are signed --- rendering them unlinkable from the tokens that are redeemed.
 
-For a full description of the protocol go to the GitHub page below.
+Read the full protocol description [here](https://github.com/privacypass/challenge-bypass-extension/blob/master/PROTOCOL.md).
 
 ## Contribute
 
@@ -25,3 +25,11 @@ If you find any issues then feel free to let us know. Contributions are also wel
 ## Download
 
 Available on Chrome & Firefox.
+
+## Team
+
+- [Alex Davidson](https://github.com/alxdavids) 
+- [Ian Goldberg](https://cs.uwaterloo.ca/~iang/)
+- [Nick Sullivan](https://github.com/grittygrease)
+- [George Tankersley](https://github.com/gtank) 
+- [Filippo Valsorda](https://github.com/filosottile) 
