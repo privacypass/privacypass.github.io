@@ -28,8 +28,8 @@ Available on Chrome & Firefox.
 
 ## Team
 
-- [Alex Davidson](https://github.com/alxdavids) 
-- [Ian Goldberg](https://cs.uwaterloo.ca/~iang/)
+- [Alex Davidson](https://github.com/alxdavids), Royal Holloway, University of London
+- [Ian Goldberg](https://cs.uwaterloo.ca/~iang/), University of Waterloo
 - [Nick Sullivan](https://github.com/grittygrease)
 - [George Tankersley](https://github.com/gtank) 
 - [Filippo Valsorda](https://github.com/filosottile) 
