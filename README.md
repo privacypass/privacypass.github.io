@@ -6,13 +6,15 @@ Privacy Pass interacts with supporting websites to reduce the number of internet
 
 The *blind* signing procedure ensures that passes that are redeemed in the future are not feasibly linkable to those that are signed. We use a privacy-preserving cryptographic protocol based on 'Verifiable, Oblivious Pseudorandom Functions' (VOPRFs) built from elliptic curves to enforce unlinkability. The protocol is exceptionally fast and guarantees privacy for the user. As such, Privacy Pass is safe to use for those with strict anonymity restrictions.
 
-## The protocol
+## The Protocol
 
 When an internet challenge is solved correctly by a user, Privacy Pass will generate a number of random nonces that will be used as tokens. These tokens will be cryptographically *blinded* and then sent to the challenge provider. If the solution is valid, the provider will sign the blinded tokens and return them to the client. Privacy Pass will *unblind* the tokens and store them for future use.
 
 Privacy Pass will detect when an internet challenge is required in the future. In these cases, an unblinded, signed token will be embedded into a privacy pass that will be sent to the challenge provider. The provider will verify the signature on the unblinded token, if this check passes the challenge will not be invoked.
 
 This protocol allows a client to bypass a number of internet challenges proportional to the number of tokens that are signed. The blinding feature used in the signing process preserves the anonymity of the user involved by randomising the tokens that are signed --- rendering them unlinkable from the tokens that are redeemed.
+
+Cryptographically speaking, every time the Privacy Pass plugin needs a new set of privacy passes, it creates a set of thirty random numbers `t1` to `t30`, hashes them into an elliptic curve (P-256 in our case), blinds them with a value `r` and sends them along with a challenge solution. The server returns the set of points multiplied by its private key and a batch discrete logarithm equivalence proof. Each pair `tn, HMACn(M)` constitutes a Privacy Pass and can be redeemed to solve a subsequent challenge. Voila!
 
 Read the full protocol description [here](https://github.com/privacypass/challenge-bypass-extension/blob/master/PROTOCOL.md).
 
