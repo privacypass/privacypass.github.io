@@ -14,7 +14,7 @@ Privacy Pass will detect when an internet challenge is required in the future. I
 
 This protocol allows a client to bypass a number of internet challenges proportional to the number of tokens that are signed. The blinding feature used in the signing process preserves the anonymity of the user involved by randomising the tokens that are signed --- rendering them unlinkable from the tokens that are redeemed.
 
-Cryptographically speaking, every time the Privacy Pass plugin needs a new set of privacy passes, it creates a set of thirty random numbers `t1` to `t30`, hashes them into an elliptic curve (P-256 in our case), blinds them with a value `r` and sends them along with a challenge solution. The server returns the set of points multiplied by its private key and a batch discrete logarithm equivalence proof. Each pair `tn, HMACn(M)` constitutes a Privacy Pass and can be redeemed to solve a subsequent challenge. Voila!
+Cryptographically speaking, every time the Privacy Pass plugin needs a new set of privacy passes, it creates a set of thirty random numbers `t1` to `t30`, hashes them into an elliptic curve (P-256 in our case), blinds them with a value `b` and sends them along with a challenge solution. The server returns the set of points multiplied by its private key and a batch discrete logarithm equivalence proof. Each pair `tn, HMACn(M)` constitutes a Privacy Pass and can be redeemed to solve a subsequent challenge. Voila!
 
 Read the full protocol description [here](https://github.com/privacypass/challenge-bypass-extension/blob/master/PROTOCOL.md).
 
