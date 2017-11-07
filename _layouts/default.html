@@ -18,18 +18,18 @@
         <a href="{{ site.github.url }}"> <h1>{{ site.title | default: site.github.repository_name }}</h1> </a>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <ul>
-          <li><a href="{{ site.github.url }}">Home</a></li>
-          <li><a href="{{ site.github.url }}/protocol">Protocol</a></li>
-          <li><a href="{{ site.github.url }}/team">Team</a></li>
-          <li><a href="https://github.com/privacypass/challenge-bypass-extension">challenge-bypass-extension</a></li>
-          <li><a href="https://github.com/privacypass/challenge-bypass-server">challenge-bypass-server</a></li>
-        </ul>
-
         <p>A privacy-enhancing protocol and browser extension by researchers from:</p>
         <div style="position:relative;width:150px;height:90px">
             <img src="{{ site.github.url }}/assets/rhul-logo.png" alt="RHUL logo" style="position:absolute;top:0;margin:auto;width:150px;height:75px;">
             <img src="{{ site.github.url }}/assets/uow-logo.png" alt="UoW logo" style="position:relative;top:20px;left:150px;right:300px;margin:auto;width:150px;height:38px;">      
+        </div>
+
+        <div class="ignore-css">
+          <p>&bull; <a href="{{ site.github.url }}"><strong>Home</strong></a></p>
+          <p>&bull; <a href="{{ site.github.url }}/protocol"><strong>Protocol</strong></a></p>
+          <p>&bull; <a href="{{ site.github.url }}/team"><strong>Team</strong></a></p>
+          <p>&bull; <a href="https://github.com/privacypass/challenge-bypass-extension"><strong>challenge-bypass-extension</strong></a></p>
+          <p>&bull; <a href="https://github.com/privacypass/challenge-bypass-server"><strong>challenge-bypass-server</strong></a></p>
         </div>
 
         {% if site.show_downloads %}
