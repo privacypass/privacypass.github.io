@@ -16,7 +16,7 @@ This protocol allows a client to bypass a number of internet challenges proporti
 
 Cryptographically speaking, every time the Privacy Pass plugin needs a new set of privacy passes, it creates a set of thirty random numbers `t1` to `t30`, hashes them into an elliptic curve (P-256 in our case), blinds them with a value `b` and sends them along with a challenge solution. The server returns the set of points multiplied by its private key and a batch discrete logarithm equivalence proof. Each pair `tn, HMACn(M)` constitutes a Privacy Pass and can be redeemed to solve a subsequent challenge. Voila!
 
-Read the full protocol description [here](https://github.com/privacypass/challenge-bypass-extension/blob/master/PROTOCOL.md).
+Read the full protocol specification [here](https://github.com/privacypass/challenge-bypass-extension/blob/master/PROTOCOL.md) and the design choices that were made [here](https://privacypass.github.io/protocol).
 
 ## Contribute
 
