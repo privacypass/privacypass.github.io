@@ -2,7 +2,7 @@ Privacy Pass is a browser extension that makes the internet more accessible.
 
 ## How?
 
-Privacy Pass interacts with supporting websites to reduce the number of internet challenges that are witnessed by honest users (such as CAPTCHAs). In short, the extension receives *blindly signed* 'passes' for each correct challenge solution. These passes can be used to bypass future challenge solutions using an *anonymous redemption* procedure.
+Privacy Pass interacts with supporting websites to introduce an anonymous user-authentication mechanism. In particular, Privacy Pass is suitable for cases where a user is required to complete some proof-of-work or solve an internet challenge to authenticate to a service. In short, the extension receives *blindly signed* 'passes' for each authentication and these passes can be used to bypass future challenge solutions using an *anonymous redemption* procedure.  For example, Privacy Pass is supported by Cloudflare to enable users to redeem passes instead of having to solve CAPTCHAs to visit Cloudflare-protected websites.
 
 The *blind* signing procedure ensures that passes that are redeemed in the future are not feasibly linkable to those that are signed. We use a privacy-preserving cryptographic protocol based on 'Verifiable, Oblivious Pseudorandom Functions' (VOPRFs) built from elliptic curves to enforce unlinkability. The protocol is exceptionally fast and guarantees privacy for the user. As such, Privacy Pass is safe to use for those with strict anonymity restrictions.
 
@@ -23,6 +23,8 @@ Read the full protocol specification [here](https://github.com/privacypass/chall
 The browser extension has been open-sourced and is available on [GitHub](https://github.com/privacypass/challenge-bypass-extension). We have also open-sourced a reference [server implementation](https://github.com/privacypass/challenge-bypass-server) that is compatible with the extension.
 
 If you find any issues then feel free to let us know. Contributions are also welcome. 
+
+For any other questions, see the [FAQ](https://privacypass.github.io/faq).
 
 ## Download
 
