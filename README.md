@@ -1,4 +1,4 @@
-Privacy Pass is a browser extension that makes the internet more accessible.
+Privacy Pass is a browser extension with the aim of making the internet more accessible.
 
 ## How?
 
@@ -22,7 +22,7 @@ Read the full protocol specification [here](https://github.com/privacypass/chall
 
 The browser extension has been open-sourced under the BSD-3 license and is available on [GitHub](https://github.com/privacypass/challenge-bypass-extension). We have also open-sourced a reference [server implementation](https://github.com/privacypass/challenge-bypass-server) that is compatible with the extension.
 
-Privacy Pass has undergone extensive testing and review but is still a relatively youthful project. In particular, the implementation of DLEQ proof verification for checking that the server is using consistent keys has not been completed yet and is still under development. As such, it is possible that you may also find other issues when using the extension. In the case that you do then get in contact with a member of the Privacy Pass team. Code contributions to the projects are also welcome. 
+Privacy Pass and the protocol that we use have undergone extensive testing and review but this is still a relatively youthful project. In particular, the implementation of DLEQ proof verification for checking that the server is using consistent keys has not been completed yet and is still under development. As such, it is possible that you may also find other issues when using the extension or within the protocol. In the case that you do then get in contact with a member of the Privacy Pass team. Code contributions to the projects are also welcome. 
 
 For any other questions, see the [FAQ](https://privacypass.github.io/faq).
 
