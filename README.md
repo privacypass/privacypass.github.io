@@ -1,5 +1,7 @@
 Privacy Pass is a browser extension with the aim of making the internet more accessible.
 
+**Update: "Privacy Pass: Bypassing Internet Challenges Anonymously" accepted to [PETS 2018](https://www.petsymposium.org/2018/). Read the paper [here](https://www.petsymposium.org/2018/files/papers/issue3/popets-2018-0026.pdf) and see below for more details.**
+
 ## How?
 
 Privacy Pass interacts with supporting websites to introduce an anonymous user-authentication mechanism. In particular, Privacy Pass is suitable for cases where a user is required to complete some proof-of-work (e.g. solving an internet challenge) to authenticate to a service. In short, the extension receives *blindly signed* 'passes' for each authentication and these passes can be used to bypass future challenge solutions using an *anonymous redemption* procedure.  For example, Privacy Pass is supported by Cloudflare to enable users to redeem passes instead of having to solve CAPTCHAs to visit Cloudflare-protected websites.
@@ -17,6 +19,10 @@ This protocol allows a client to bypass a number of internet challenges proporti
 Cryptographically speaking, every time the Privacy Pass plugin needs a new set of privacy passes, it creates a set of thirty random numbers `t1` to `t30`, hashes them into an elliptic curve (P-256 in our case), blinds them with a value `b` and sends them along with a challenge solution. The server returns the set of points multiplied by its private key and a batch discrete logarithm equivalence proof. Each pair `(ti, HMACi(M))` constitutes a Privacy Pass and can be redeemed to solve a subsequent challenge. Voila!
 
 Read the full protocol specification [here](https://github.com/privacypass/challenge-bypass-extension/blob/master/PROTOCOL.md) and the design choices that were made [here](https://privacypass.github.io/protocol).
+
+## Paper
+
+We have written a [paper](https://www.petsymposium.org/2018/files/papers/issue3/popets-2018-0026.pdf) that has been accepted into the 2018 edition of [Privacy Enhancing Technologies Symposium (PETS2018)](https://www.petsymposium.org/2018/). In the paper, we formalize the protocol and are able prove (based on discrete-log-based cryptographic assumptions) some of the security properties that we require for guaranteeing anonymity and unforgeability. We also provide more details on the implementation of the browser extension and our collaboration with Cloudflare.
 
 ## Contribute
 
