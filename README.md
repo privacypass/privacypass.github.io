@@ -22,7 +22,7 @@ Read the full protocol specification [here](https://github.com/privacypass/chall
 
 ## Paper
 
-We have written a [paper](https://www.petsymposium.org/2018/files/papers/issue3/popets-2018-0026.pdf) that has been accepted into the 2018 edition of [Privacy Enhancing Technologies Symposium (PETS2018)](https://www.petsymposium.org/2018/). In the paper, we formalize the protocol and are able prove (based on discrete-log-based cryptographic assumptions) some of the security properties that we require for guaranteeing anonymity and unforgeability. We also provide more details on the implementation of the browser extension and our collaboration with Cloudflare.
+We have written a [paper](https://www.petsymposium.org/2018/files/papers/issue3/popets-2018-0026.pdf) that has been accepted into the 2018 edition of the [Privacy Enhancing Technologies Symposium (PETS2018)](https://www.petsymposium.org/2018/). In the paper, we formalize the protocol and are able prove (based on discrete-log-based cryptographic assumptions) some of the security properties that we require for guaranteeing anonymity and unforgeability. We also provide more details on the implementation of the browser extension and our collaboration with Cloudflare.
 
 ## Contribute
 
