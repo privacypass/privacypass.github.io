@@ -1,6 +1,6 @@
 Privacy Pass is a browser extension with the aim of making the internet more accessible.
 
-**Update: "Privacy Pass: Bypassing Internet Challenges Anonymously" accepted to [PETS 2018](https://www.petsymposium.org/2018/). Read the paper [here](https://www.petsymposium.org/2018/files/papers/issue3/popets-2018-0026.pdf) and see below for more details.**
+**Update: "Privacy Pass: Bypassing Internet Challenges Anonymously" accepted to [PETS 2018](https://www.petsymposium.org/2018/). Read the paper [here](https://www.petsymposium.org/2018/files/papers/issue3/popets-2018-0026.pdf) and see [below](#paper) and in the [FAQ](https://privacypass.github.io/faq/) for more details.**
 
 ## How?
 
