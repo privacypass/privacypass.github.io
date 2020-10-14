@@ -1,6 +1,6 @@
 Privacy Pass is a browser extension with the aim of making the internet more accessible.
 
-Version 2.0 of the extension is now available in [Chrome](https://chrome.google.com/webstore/detail/privacy-pass/ajhmfdgkijocedmfjonnpjfojldioehi) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/privacy-pass/)!
+Version 2.0 of the extension is now available in [Chrome](https://chrome.google.com/webstore/detail/privacy-pass/odniikpejlhbjandolpbjlpmhkhjmaba) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/privacy-pass/)!
 
 ## How?
 
@@ -34,4 +34,4 @@ For any other questions, see the [FAQ](https://privacypass.github.io/faq).
 
 ## Download
 
-Available on [Chrome](https://chrome.google.com/webstore/detail/privacy-pass/ajhmfdgkijocedmfjonnpjfojldioehi) & [Firefox](https://addons.mozilla.org/en-US/firefox/addon/privacy-pass/).
+Available on [Chrome](https://chrome.google.com/webstore/detail/privacy-pass/odniikpejlhbjandolpbjlpmhkhjmaba) & [Firefox](https://addons.mozilla.org/en-US/firefox/addon/privacy-pass/).
