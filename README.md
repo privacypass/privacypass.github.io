@@ -1,6 +1,13 @@
-Privacy Pass is a browser extension with the aim of making the internet more accessible.
+Privacy Pass is a browser extension with the aim of making the internet
+more accessible.
 
-Version 2.0 of the extension is now available in [Chrome](https://chrome.google.com/webstore/detail/privacy-pass/ajhmfdgkijocedmfjonnpjfojldioehi) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/privacy-pass/)!
+## Updates
+
+**Oct 2020: The Privacy Pass protocol is now in the process of being standardised by the IETF in the [privacypass](https://datatracker.ietf.org/wg/privacypass/about/) working group. All contributions are welcome! See the [GitHub page](https://github.com/ietf-wg-privacypass) for more details.**
+
+Oct 2019: Version 2.0 of the extension is now available in [Chrome](https://chrome.google.com/webstore/detail/privacy-pass/ajhmfdgkijocedmfjonnpjfojldioehi) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/privacy-pass/)!
+
+April 2018: "[Privacy Pass: Bypassing Internet Challenges Anonymously](https://www.petsymposium.org/2018/files/papers/issue3/popets-2018-0026.pdf)" accepted to [PETS 2018](https://www.petsymposium.org/2018/). See [below](#paper) and in the [FAQ](https://privacypass.github.io/faq/) for more details.
 
 ## How?
 
